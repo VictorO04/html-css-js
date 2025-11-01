@@ -18,6 +18,7 @@ body {
     padding: 70px 20px;
     border: 2px solid rgb(90, 45, 141);
     border-radius: 30px;
+    box-shadow: 0 0 55px 1px rgba(90, 45, 141);
 }
 
 #titulo {
@@ -29,6 +30,11 @@ body {
     height: 500px;
     width: 550px;
     border-radius: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+#imagem-sentado:hover {
+    transform: translateY(-5px);
 }
 
 .botoes-container {
