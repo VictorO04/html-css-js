@@ -12,7 +12,7 @@ btnSim.addEventListener("click", () => {
 });
 
 btnNao.addEventListener("click", () => {
-    titulo.textContent = "Deplorável, você perder 1000 de Aura";
+    titulo.textContent = "Deplorável, você perdeu 1000 de Aura";
     gif.src = "../assets/img/yujidepre.gif";
 });
 

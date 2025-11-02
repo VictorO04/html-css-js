@@ -104,11 +104,12 @@ body.escuro #tema:hover {
     font-size: 20px;
     border: 1px solid rgb(90, 45, 141);
     border-radius: 10px;
-    transition: 
-    background-color 0.3s
-    color 0.3s;
-    box-shadow: 0 0 55px 1px rgba(90, 45, 141);
     cursor: pointer;
+    transition:
+        background-color 0.3s,
+        color 0.3s,
+        border-color 0.3s,
+        box-shadow 0.3s;
 }
 
 body.claro .botoes {
@@ -124,8 +125,6 @@ body.claro .botoes:hover {
 body.escuro .botoes {
     background-color: rgb(20, 20, 20);
     color: white;
-    border-color: rgb(180, 130, 250);
-    box-shadow: 0 0 30px 2px rgba(180, 130, 250, 0.6);
 }
 
 body.escuro .botoes:hover {
