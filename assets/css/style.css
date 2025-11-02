@@ -7,6 +7,8 @@
 }
 
 body {
+    align-items: center;
+    height: 100vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -27,7 +29,6 @@ body.escuro {
 }
 
 .container {
-    margin-top: 30px;
     padding: 55px 20px;
     border: 2px solid rgb(90, 45, 141);
     border-radius: 30px;
@@ -50,6 +51,7 @@ body.escuro {
     background-color 0.3s;
     box-shadow: 0 0 55px 1px rgba(90, 45, 141);
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 
